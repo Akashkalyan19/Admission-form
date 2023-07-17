@@ -1,38 +1,183 @@
-.App {
-  text-align: center;
+h1{
+    text-align: center;
+    background-color: #E9F1FA;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+    border-radius: 2%;
+    color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h5{
+    /* width: 100px; */
+    width: 15%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line{
+    border-width: 10px;
+    border-top: 1px solid black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+    display: flex;
+    flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.form-item{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    text-align: left;
+    margin-left: 15%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+    background-color:#E9F1FA
+}
+.navbar{
+display: flex;
+padding-top: 9px;
+background-color: #00ABE4;
+color: white;
+justify-content: center;
+height: 30px;
+/* height: ; */
+}
+/* .footer{
+display: flex;
+background-color: #00ABE4;
+} */
+input{
+    margin-left: 20%;
+    width: 90%;
+    margin-right: 10%;
+    height: 25px;
+}
+select{
+    margin-left: 15%;  
+    height: 25px; 
+}
+.radio{
+    display: flex;
+    margin-left: 11%;
+}
+h3{
+    margin-left: 15%;
+}
+.personal-details{
+    border-width: 10px;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 2%;
+}
+.contact-details{
+    border-width: 10px;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 2%;
+}
+.Qualification{
+    border-width: 10px;
+    margin-top: 25px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-radius: 2%;   
+}
+.btn-submit{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background-color: #00ABE4;
+    color: #fff;
+}
+.btn-reset
+{
+    margin-left: 35%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background-color: #00ABE4;
+    color: #fff;
+}
+.btn-refill{
+    margin-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background-color: #00ABE4;
+    color: #fff;   
+}
+.success{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 1%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    background-color: lightblue;
+}
+#sub-success{
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+.filled-form{
+    /* display: flex; */
+    margin-left: 25%;
+    margin-top: 1%;
+    /* justify-content: center; */
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+    background-color: lightblue;
+    margin-bottom: 1%;
+}
+.list{
+    display: flex;
+}
+.list-item{
+margin-left: 15%;
+font-weight: bold;
+width: 200px;
+}
+.list-data{
+margin-left: 20%;
+}
+u{
+    margin-left: 1%;
 }
