@@ -6,7 +6,7 @@ import Fill from './components/Fill';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Fill/>}/>
+      <Route path="/Admission-form" element={<Fill/>}/>
       <Route path="/submit" element={<Submit/>}/>
     </Routes>
   );

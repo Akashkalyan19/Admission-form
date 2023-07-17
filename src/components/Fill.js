@@ -276,10 +276,11 @@ function Fill ()
             <div className="Qualification">
                 <h3>Qualification Details</h3>
                 <div className="form-item">
-                <h5>X Marks</h5>
+                <h5>Class X Percentage</h5>
                 <input
-                type="text"
-                placeholder="Enter class X Marks"
+                type="number"
+                placeholder="Enter class X Percentage"
+                max="100"
                 onChange={handleChange}
                 name="Xmarks"
                 value={formData.Xmarks}
@@ -294,10 +295,11 @@ function Fill ()
                 value={formData.Xboard}
                 />
                 </div><div className="form-item">
-                <h5>XII Marks</h5>
+                <h5>Class XII Percentage</h5>
                 <input
-                type="text"
-                placeholder="Enter class XII Marks"
+                type="number"
+                max="100"
+                placeholder="Enter class XII Percentage"
                 onChange={handleChange}
                 name="XIImarks"
                 value={formData.XIImarks}
