@@ -36,7 +36,7 @@ return (
         <p>No form data available.</p>
       )}
     </div>     
-<Link to="/" className="btn-refill">Back </Link>
+<Link to="/Admission-form" className="btn-refill">Back </Link>
 </div>
 );
 }

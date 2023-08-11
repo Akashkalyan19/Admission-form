@@ -28,8 +28,8 @@ h5{
 }
 .main
 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 5px;
     background-color:#E9F1FA
 }
@@ -38,9 +38,17 @@ display: flex;
 padding-top: 9px;
 background-color: #00ABE4;
 color: white;
-justify-content: center;
-height: 30px;
-/* height: ; */
+height: 70px;
+display: flex;
+justify-content: space-between;
+}
+.img1{
+    margin-left: 10%;
+    height: 60px;
+    width: 120px;
+}
+.navp{
+    width: 50%;
 }
 /* .footer{
 display: flex;
@@ -71,6 +79,20 @@ h3{
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-radius: 2%;
+    width: 100%;
+}
+.pd{
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.img2{
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 30%;
+    border-radius: 2%;
 }
 .contact-details{
     border-width: 10px;
@@ -80,6 +102,19 @@ h3{
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-radius: 2%;
+    width: 100%;
+}
+.cd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.img5{
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 30%;
+    border-radius: 2%;
 }
 .Qualification{
     border-width: 10px;
@@ -88,7 +123,20 @@ h3{
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-left: 1px solid black;
-    border-radius: 2%;   
+    border-radius: 2%; 
+    width: 100%;  
+}
+.qd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.img4{
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 30%;
+    border-radius: 2%;
 }
 .btn-submit{
     margin-left: 10%;

@@ -1,5 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import myImage1 from './imgs/hcl-logo.png'
+// import myImage2 from './imgs/dtu.png'
+// import myImage3 from './imgs/grad.png'
+import myImage4 from './imgs/library.png'
+import myImage5 from './imgs/nsut.png'
+import myImage6 from './imgs/students.png'
+// import myImage7 from './imgs/uni.png'
 function Fill ()
 {
     const [formData,setFormData]=React.useState(
@@ -90,12 +97,14 @@ function Fill ()
       return (
         <div>
         <div className="navbar">
-        The Admission process for NSUT 2023 has started.<u>Hurry up and Register yourself today.</u>
+         <img src={myImage1} alt="Couldn't load images" className="img1"></img> 
+        <p className="navp">The Admission process for NSUT 2023 has started.<u>Hurry up and Register yourself today.</u></p>
         </div>
         <div className="main">
             <h1>College Admission Form</h1>
             {/* <div className="line"></div> */}
             <form className="form">
+            <div className="pd">
             <div className="personal-details"><h3>Personal Details</h3> 
                 <div className="form-item">
                 <h5>Name of candidate</h5>
@@ -179,7 +188,10 @@ function Fill ()
                 </div>
                 </div>
             </div>
-            <div className="contact-details">
+            <img src={myImage6} className="img2" alt="Couldn't load images"></img>
+            </div>
+          <div className="cd">
+          <div className="contact-details">
                   <h3>Contact details</h3>
                   <div className="form-item">
                   <h5>Phone number</h5>
@@ -273,7 +285,10 @@ function Fill ()
                   />
                   </div>
             </div>
-            <div className="Qualification">
+          <img src={myImage5} className="img5" alt="Couldn't load images"></img>  
+          </div>
+          <div className="qd">
+          <div className="Qualification">
                 <h3>Qualification Details</h3>
                 <div className="form-item">
                 <h5>Class X Percentage</h5>
@@ -326,6 +341,8 @@ function Fill ()
                 />
                 </div>
             </div>
+            <img src={myImage4} className="img4" alt="Couldn't load images"></img>
+          </div> 
             </form>
             <button className="btn-reset" onClick={handleReset}>Reset</button>
             <Link to={isFormValid ?"/submit":"/"} state={{formData}}className="btn-submit" disabled={!isFormValid} onClick={handleUnfilledSubmit}>Submit</Link>
