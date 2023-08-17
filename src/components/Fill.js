@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import myImage1 from './imgs/hcl-logo.png'
+// import myImage1 from './imgs/hcl-logo.png'
 // import myImage2 from './imgs/dtu.png'
 // import myImage3 from './imgs/grad.png'
 import myImage4 from './imgs/library.png'
 import myImage5 from './imgs/nsut.png'
 import myImage6 from './imgs/students.png'
-// import myImage7 from './imgs/uni.png'
+import myImage7 from './imgs/uni.png'
 function Fill ()
 {
     const [formData,setFormData]=React.useState(
@@ -97,7 +97,7 @@ function Fill ()
       return (
         <div>
         <div className="navbar">
-         <img src={myImage1} alt="Couldn't load images" className="img1"></img> 
+         <img src={myImage7} alt="Couldn't load images" className="img1"></img> 
         <p className="navp">The Admission process for NSUT 2023 has started.<u>Hurry up and Register yourself today.</u></p>
         </div>
         <div className="main">
